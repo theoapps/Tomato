@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		E401E14A1C8E31C700A6AA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E1491C8E31C700A6AA81 /* AppDelegate.swift */; };
 		E401E14C1C8E31C700A6AA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E14B1C8E31C700A6AA81 /* ViewController.swift */; };
-		E401E14F1C8E31C700A6AA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E401E14D1C8E31C700A6AA81 /* Main.storyboard */; };
 		E401E1521C8E31C700A6AA81 /* tomato.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E401E1501C8E31C700A6AA81 /* tomato.xcdatamodeld */; };
 		E401E1541C8E31C700A6AA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E401E1531C8E31C700A6AA81 /* Assets.xcassets */; };
 		E401E1571C8E31C700A6AA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E401E1551C8E31C700A6AA81 /* LaunchScreen.storyboard */; };
 		E401E1621C8E31C700A6AA81 /* tomatoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E1611C8E31C700A6AA81 /* tomatoTests.swift */; };
+		E401E16D1C8E331100A6AA81 /* Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E16C1C8E331100A6AA81 /* Tomato.swift */; };
+		E401E16E1C8E331100A6AA81 /* Tomato.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E16C1C8E331100A6AA81 /* Tomato.swift */; };
+		E401E1731C8E526C00A6AA81 /* TomatoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E1721C8E526C00A6AA81 /* TomatoDetailView.swift */; };
+		E401E1741C8E526C00A6AA81 /* TomatoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E401E1721C8E526C00A6AA81 /* TomatoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +33,6 @@
 		E401E1461C8E31C700A6AA81 /* tomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E401E1491C8E31C700A6AA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E401E14B1C8E31C700A6AA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E401E14E1C8E31C700A6AA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E401E1511C8E31C700A6AA81 /* tomato.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = tomato.xcdatamodel; sourceTree = "<group>"; };
 		E401E1531C8E31C700A6AA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E401E1561C8E31C700A6AA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +40,8 @@
 		E401E15D1C8E31C700A6AA81 /* tomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E401E1611C8E31C700A6AA81 /* tomatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tomatoTests.swift; sourceTree = "<group>"; };
 		E401E1631C8E31C700A6AA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E401E16C1C8E331100A6AA81 /* Tomato.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tomato.swift; sourceTree = "<group>"; };
+		E401E1721C8E526C00A6AA81 /* TomatoDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TomatoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +85,8 @@
 			children = (
 				E401E1491C8E31C700A6AA81 /* AppDelegate.swift */,
 				E401E14B1C8E31C700A6AA81 /* ViewController.swift */,
-				E401E14D1C8E31C700A6AA81 /* Main.storyboard */,
+				E401E1721C8E526C00A6AA81 /* TomatoDetailView.swift */,
+				E401E16C1C8E331100A6AA81 /* Tomato.swift */,
 				E401E1531C8E31C700A6AA81 /* Assets.xcassets */,
 				E401E1551C8E31C700A6AA81 /* LaunchScreen.storyboard */,
 				E401E1581C8E31C700A6AA81 /* Info.plist */,
@@ -182,7 +187,6 @@
 			files = (
 				E401E1571C8E31C700A6AA81 /* LaunchScreen.storyboard in Resources */,
 				E401E1541C8E31C700A6AA81 /* Assets.xcassets in Resources */,
-				E401E14F1C8E31C700A6AA81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,6 +207,8 @@
 				E401E14C1C8E31C700A6AA81 /* ViewController.swift in Sources */,
 				E401E1521C8E31C700A6AA81 /* tomato.xcdatamodeld in Sources */,
 				E401E14A1C8E31C700A6AA81 /* AppDelegate.swift in Sources */,
+				E401E16D1C8E331100A6AA81 /* Tomato.swift in Sources */,
+				E401E1731C8E526C00A6AA81 /* TomatoDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +217,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E401E1621C8E31C700A6AA81 /* tomatoTests.swift in Sources */,
+				E401E1741C8E526C00A6AA81 /* TomatoDetailView.swift in Sources */,
+				E401E16E1C8E331100A6AA81 /* Tomato.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +233,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E401E14D1C8E31C700A6AA81 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E401E14E1C8E31C700A6AA81 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E401E1551C8E31C700A6AA81 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

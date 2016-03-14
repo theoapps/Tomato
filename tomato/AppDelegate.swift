@@ -13,10 +13,23 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var navController: UINavigationController?
+
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let controller = ViewController()
+        navController = UINavigationController(rootViewController: controller)
+        navController?.navigationBar.translucent = true
+        //navController?.navigationBar.tintColor = runesTextColor
+        //navController?.interactivePopGestureRecognizer!.enabled = false
+        
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        window!.rootViewController = navController
+        window!.tintColor = UIColor.blackColor()
+        window!.makeKeyAndVisible()
+        
         return true
     }
 
